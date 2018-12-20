@@ -1,0 +1,37 @@
+.box_banner_product {
+	background: #91c0d0;
+    margin-bottom: 140px;
+}
+.container {
+    max-width: 1170px;
+}
+.box_banner_product .product_right_content {
+    float: right;
+    margin-right: 58px;
+    max-width: 440px;
+    position: relative;
+    text-align: justify;
+    z-index: 2;
+    top: 190px;
+}
+.box_banner_product>.container:before {
+    content: "";
+    width: 916px;
+    height: 350px;
+    border: 5px solid #fff;
+    border-left: none;
+    position: absolute;
+    right: 200px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.box_banner_product>.container:after {
+    content: "";
+    width: 916px;
+    height: 350px;
+    border-left: 5px solid #fff;
+    position: absolute;
+    right: 200px;
+    top: 50%;
+    transform: translateY(-50%);
+}
